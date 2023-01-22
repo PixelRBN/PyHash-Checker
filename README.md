@@ -3,7 +3,7 @@
 # PyHash Checker
 
 ### PyHash Checker is a utility app to check the cryptographic checksum of a file.
-Generates the hash of a file and compares it with the hash entered.
+### Generates the hash of a file and compares it with the hash entered.
 
 # Algorithms Available
 
