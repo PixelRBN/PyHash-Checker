@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.37059484"
+     inkscape:cx="361.58086"
+     inkscape:cy="322.45457"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient72177">
+      <stop
+         style="stop-color:#a8a8a8;stop-opacity:1"
+         offset="0"
+         id="stop72173" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop72175" />
+    </linearGradient>
+    <rect
+       x="204.15942"
+       y="83.953405"
+       width="421.67506"
+       height="129.74617"
+       id="rect8664" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="184.60156,-13.455078"
+       end_point="184.60156,127.74023"
+       center_point="184.60156,57.142576"
+       id="path-effect4226"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="43.02,57.24"
+       end_point="184.60156,127.74023"
+       center_point="184.60156,57.142575"
+       id="path-effect4205"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="X"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="328.16125,-3.8160639"
+       end_point="328.16125,134.15915"
+       center_point="328.16125,65.171543"
+       id="path-effect3984"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter60395"
+       x="-0.14859423"
+       y="-0.11367702"
+       width="1.2158822"
+       height="1.2841926">
+      <feFlood
+         flood-opacity="0.423529"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood60385" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite60387" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur60389" />
+      <feOffset
+         dx="-2.9"
+         dy="1.2"
+         result="offset"
+         id="feOffset60391" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite60393" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient72177"
+       id="linearGradient70835"
+       x1="258.61331"
+       y1="202.95239"
+       x2="352.32123"
+       y2="50.026276"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.54855392,0,0,0.54855392,-79.393392,65.370391)"
+       id="text8662"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8664);fill:url(#linearGradient70835);fill-opacity:1;stroke:none"
+       inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
+       inkscape:export-xdpi="227.3223"
+       inkscape:export-ydpi="227.3223"><tspan
+         x="204.16016"
+         y="120.72189"
+         id="tspan81585"><tspan
+           style="font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, '"
+           id="tspan81583">## 10110 ##</tspan></tspan></text>
+    <g
+       id="g73702"
+       style="fill:#495a62;fill-opacity:1;filter:url(#filter60395)"
+       inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
+       inkscape:export-xdpi="227.3223"
+       inkscape:export-ydpi="227.3223">
+      <path
+         id="path846"
+         style="fill:#495a62;fill-opacity:1;stroke-width:0.2"
+         d="M 99.23806,79.961634 A 41.051681,41.051681 0 0 0 58.186303,121.01339 41.051681,41.051681 0 0 0 99.23806,162.06515 41.051681,41.051681 0 0 0 140.28982,121.01339 41.051681,41.051681 0 0 0 99.23806,79.961634 Z m 0,10.696504 A 30.354968,30.354968 0 0 1 129.5928,121.01339 30.354968,30.354968 0 0 1 99.23806,151.36813 30.354968,30.354968 0 0 1 68.882807,121.01339 30.354968,30.354968 0 0 1 99.23806,90.658138 Z" />
+      <path
+         id="rect1273"
+         style="fill:#495a62;fill-opacity:1;stroke-width:0.162169"
+         d="m 133.63969,149.78729 a 33.376814,33.376814 0 0 1 -13.90665,11.7352 c 0.43854,0.86963 0.99,1.72556 1.65262,2.54041 l 23.31485,28.67164 c 3.54672,4.36159 8.89503,5.84593 11.99152,3.32796 l 3.49539,-2.84272 c 3.09649,-2.51797 2.73385,-8.05626 -0.81287,-12.41785 L 136.0597,152.1303 c -0.74031,-0.91039 -1.5596,-1.69357 -2.42001,-2.34301 z" />
+    </g>
+    <g
+       id="g58935"
+       style="fill:#cccccc;filter:url(#filter60395)"
+       inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
+       inkscape:export-xdpi="227.3223"
+       inkscape:export-ydpi="227.3223">
+      <g
+         id="g73344"
+         style="fill:#cccccc">
+        <g
+           id="g73029"
+           style="fill:#cccccc;fill-opacity:1">
+          <path
+             id="path1971"
+             style="fill:#cccccc;fill-opacity:1;stroke-width:0.755906"
+             d="m 184.60156,-13.455078 c -34.35422,1.21295 -67.60871,10.9206606 -93.067789,31.398625 -27.068745,21.772692 -48.57977,47.417729 -56.24014,83.396933 0,0 -2.570561,19.42732 11.181091,19.6243 13.751653,0.19698 17.80306,-17.53435 17.80306,-17.53435 C 78.10452,56.320322 135.95124,29.288667 184.60156,26.998047 Z m 0,0 c 34.35422,1.21295 67.60871,10.9206606 93.06779,31.398625 27.06874,21.772692 48.57977,47.417729 56.24014,83.396933 0,0 2.57056,19.42732 -11.18109,19.6243 -13.75166,0.19698 -17.80306,-17.53435 -17.80306,-17.53435 C 291.0986,56.320322 233.25188,29.288667 184.60156,26.998047 Z"
+             transform="matrix(0.1180694,0.04786889,-0.03794605,0.09359458,86.228895,88.02943)"
+             sodipodi:nodetypes="csczccc"
+             inkscape:original-d="m 184.60156,-13.455078 c -34.35422,1.21295 -67.60871,10.9206606 -93.067789,31.398625 -27.068745,21.772692 -48.57977,47.417729 -56.24014,83.396933 0,0 -2.570561,19.42732 11.181091,19.6243 13.751653,0.19698 17.80306,-17.53435 17.80306,-17.53435 C 78.10452,56.320322 135.95124,29.288667 184.60156,26.998047 Z"
+             inkscape:path-effect="#path-effect4226" />
+          <rect
+             style="fill:#cccccc;fill-opacity:1;stroke-width:0.149548"
+             id="rect6369"
+             width="4.4066663"
+             height="5.819109"
+             x="127.3298"
+             y="21.747044"
+             ry="2.2562628"
+             rx="2.1323035"
+             transform="matrix(0.74748427,0.66427951,-0.65736505,0.75357229,0,0)" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
