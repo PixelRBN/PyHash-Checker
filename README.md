@@ -19,7 +19,7 @@ Generates the hash of a file and compares it with the hash entered.
 - SHA 384
 - SHA 512
 
-##GUI
+#GUI
 
 ---
 <center>
