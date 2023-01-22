@@ -281,7 +281,7 @@ def pop_up(mode):
 
         about.setIcon(QMessageBox.Information)
         about.setWindowTitle(f"PyHash Checker {version}")
-        about.setText(f"PyHash Checker is an utility app to check the cryptographic checksum of a file."
+        about.setText(f"PyHash Checker is a utility app to check the cryptographic checksum of a file."
                       f"\nMade using Python and PyQt5\n\nVersion: {version}\nAuthor: RBN")
         about.setInformativeText(f'<a href="https://github.com/PixelRBN/PyHash-Checker">Github</a>')
 
