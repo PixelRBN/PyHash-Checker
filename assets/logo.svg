@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="logo.svg"
+   inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
+   inkscape:export-xdpi="349.42603"
+   inkscape:export-ydpi="349.42603"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,16 +27,17 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.37059484"
-     inkscape:cx="361.58086"
-     inkscape:cy="322.45457"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="253.14423"
+     inkscape:cy="590.43416"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:lockguides="false" />
+     inkscape:current-layer="g58935"
+     inkscape:lockguides="false"
+     showborder="false" />
   <defs
      id="defs2">
     <linearGradient
@@ -100,10 +104,10 @@
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
        id="filter60395"
-       x="-0.14859423"
-       y="-0.11367702"
-       width="1.2158822"
-       height="1.2841926">
+       x="-0.15706386"
+       y="-0.12015643"
+       width="1.2281871"
+       height="1.3003911">
       <feFlood
          flood-opacity="0.423529"
          flood-color="rgb(0,0,0)"
@@ -140,31 +144,78 @@
        y1="202.95239"
        x2="352.32123"
        y2="50.026276"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-3.4211328,-2.1116353)" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4749"
+       x="-0.02269743"
+       y="-0.10290021"
+       width="1.0348477"
+       height="1.2879777">
+      <feFlood
+         flood-opacity="0.321569"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4739" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4741" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.2"
+         result="blur"
+         id="feGaussianBlur4743" />
+      <feOffset
+         dx="-2.5"
+         dy="2.3"
+         result="offset"
+         id="feOffset4745" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4747" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#232730;fill-opacity:1;stroke-width:0.199216"
+       id="rect1072"
+       width="145.38126"
+       height="145.40495"
+       x="29.478069"
+       y="67.091385"
+       rx="22.969927"
+       ry="25.478601" />
     <text
        xml:space="preserve"
-       transform="matrix(0.54855392,0,0,0.54855392,-79.393392,65.370391)"
+       transform="matrix(0.54855392,0,0,0.54855392,-77.516716,66.528737)"
        id="text8662"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8664);fill:url(#linearGradient70835);fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8664);fill:url(#linearGradient70835);fill-opacity:1;stroke:none;filter:url(#filter4749)"
        inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
        inkscape:export-xdpi="227.3223"
        inkscape:export-ydpi="227.3223"><tspan
          x="204.16016"
          y="120.72189"
-         id="tspan81585"><tspan
+         id="tspan4807"><tspan
            style="font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, '"
-           id="tspan81583">## 10110 ##</tspan></tspan></text>
+           id="tspan4805">## 10110 ##</tspan></tspan></text>
     <g
        id="g73702"
        style="fill:#495a62;fill-opacity:1;filter:url(#filter60395)"
        inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
        inkscape:export-xdpi="227.3223"
-       inkscape:export-ydpi="227.3223">
+       inkscape:export-ydpi="227.3223"
+       transform="translate(1.5504391,1.3572128)">
       <path
          id="path846"
          style="fill:#495a62;fill-opacity:1;stroke-width:0.2"
@@ -179,10 +230,12 @@
        style="fill:#cccccc;filter:url(#filter60395)"
        inkscape:export-filename="D:\Rohan\Python\Hash checker\assets\logo.png"
        inkscape:export-xdpi="227.3223"
-       inkscape:export-ydpi="227.3223">
+       inkscape:export-ydpi="227.3223"
+       transform="matrix(1.0202059,0,0,0.98598874,-0.5327308,1.389639)">
       <g
          id="g73344"
-         style="fill:#cccccc">
+         style="fill:#cccccc"
+         transform="matrix(0.94607524,0,0,0.94607524,6.1216833,5.5334094)">
         <g
            id="g73029"
            style="fill:#cccccc;fill-opacity:1">
@@ -201,8 +254,8 @@
              height="5.819109"
              x="127.3298"
              y="21.747044"
-             ry="2.2562628"
-             rx="2.1323035"
+             ry="2.3826778"
+             rx="2.2420692"
              transform="matrix(0.74748427,0.66427951,-0.65736505,0.75357229,0,0)" />
         </g>
       </g>

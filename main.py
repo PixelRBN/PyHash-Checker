@@ -1,8 +1,17 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import hashlib
+import os
 
-version = "0.1.0"
+version = "0.1.1"
+basedir = os.path.dirname(__file__)
+
+try:
+    from ctypes import windll
+    myappid = 'RBN.PyHash Checker.subproduct.version'
+    windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+except ImportError:
+    pass
 
 
 class Ui_MainWindow(QtCore.QObject):
@@ -22,7 +31,8 @@ class Ui_MainWindow(QtCore.QObject):
         self.worker_thread.start()
 
     def setupUi(self, MainWindow):
-        MainWindow.setWindowIcon(QtGui.QIcon("assets/logo.png"))
+        MainWindow.setWindowIcon(QtGui.QIcon(os.path.join(basedir, 'assets/logo.png')))
+
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(750, 400)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
