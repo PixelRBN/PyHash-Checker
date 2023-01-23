@@ -2,12 +2,13 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 import hashlib
 import os
+from ctypes import windll
+from dialogbox import Ui_SecondWindow, file_open
 
-version = "0.1.1"
+version = "0.2.0"
 basedir = os.path.dirname(__file__)
 
 try:
-    from ctypes import windll
     myappid = 'RBN.PyHash Checker.subproduct.version'
     windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 except ImportError:
@@ -86,6 +87,12 @@ class Ui_MainWindow(QtCore.QObject):
         self.browse_btn.setObjectName("browse_btn")
         self.input_layout.addWidget(self.browse_btn, 1, 1, 1, 1)
         self.browse_btn.clicked.connect(self.file_browse)
+
+        self.browse_hash_btn = QtWidgets.QPushButton(self.centralwidget)
+        self.browse_hash_btn.setFont(font)
+        self.browse_hash_btn.setObjectName("browse_hash_btn")
+        self.input_layout.addWidget(self.browse_hash_btn, 2, 1, 4, 1)
+        self.browse_hash_btn.clicked.connect(self.browse_hash)
 
         self.file_label = QtWidgets.QLabel(self.centralwidget)
         self.file_label.setEnabled(True)
@@ -208,6 +215,7 @@ class Ui_MainWindow(QtCore.QObject):
         MainWindow.setWindowTitle(_translate("MainWindow", "PyHash Checker"))
         self.hash_label.setText(_translate("MainWindow", "Enter Hash:"))
         self.browse_btn.setText(_translate("MainWindow", "Browse"))
+        self.browse_hash_btn.setText(_translate("MainWindow", "Browse"))
         self.file_label.setText(_translate("MainWindow", "Choose File:"))
         self.result_btn.setText(_translate("MainWindow", "RESULT"))
         self.hash_label2.setText(_translate("MainWindow", "Generated Hash:"))
@@ -264,6 +272,15 @@ class Ui_MainWindow(QtCore.QObject):
 
     def pbar_update(self, val):
         self.progressBar.setValue(val)
+
+    def browse_hash(self):
+        self.hash_file_path = QtWidgets.QFileDialog.getOpenFileName(caption="Select File")
+        hash_from_file = file_open(self.hash_file_path[0])
+
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_SecondWindow()
+        self.ui.setupUi(self.window, hash_from_file, self.hash_file_path[0])
+        self.window.show()
 
 
 def pop_up(mode):
