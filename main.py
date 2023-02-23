@@ -5,7 +5,7 @@ import os
 from ctypes import windll
 from dialogbox import Ui_SecondWindow, file_open
 
-version = "0.2.0"
+version = "0.2.1"
 basedir = os.path.dirname(__file__)
 
 try:
@@ -244,24 +244,25 @@ class Ui_MainWindow(QtCore.QObject):
         self.method = self.algriothm_box.currentIndex()
         self.hash_inputted = self.hash_input_box.text()
 
-        print(self.file_path)
+        # print(self.file_path)
         file_size = QtCore.QFileInfo(self.file_path).size()
-        print("File size : ", file_size)
+        # print("File size : ", file_size)
         self.progressBar.setMaximum(int(file_size/65536))
         if file_size < 10000:
             self.progressBar.hide()
         else:
             self.progressBar.show()
 
-        print(int(file_size/65536))
+        # print(int(file_size/65536))
 
         self.data_for_thread.emit(self.file_path, self.method)
 
     def result(self, hash_out):
         self.result_btn.show()
-        self.hash_output_box.setText(hash_out)
 
-        if self.hash_inputted == hash_out:
+        self.hash_output_box.setText(str(hash_out).upper())
+
+        if self.hash_inputted.lower() == hash_out:
             self.result_btn.setText("HASH MATCHES")
             self.result_btn.setStyleSheet("QPushButton{ color: rgb(52, 182, 50); border: 3px solid rgb(35, 208, 75);"
                                           " background-color: rgb(232, 232, 232); font-size:18px; }")
@@ -329,7 +330,7 @@ class Worker(QtCore.QObject):
                     i += 1
                     self.progress.emit(i)
 
-                    print(i)
+                    # print(i)
                     data = f.read(size)
                     if not data:
                         break
@@ -348,7 +349,7 @@ class Worker(QtCore.QObject):
 
                 if method == 0:
                     result_hash = md5.hexdigest()
-                    print(result_hash)
+                    # print(result_hash)
                 if method == 1:
                     result_hash = sha1.hexdigest()
                 if method == 2:
